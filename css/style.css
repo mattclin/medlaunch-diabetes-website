@@ -1,13 +1,15 @@
 h1{
   font-size: 50px;
   line-height: 1;
-  padding: 50px 0;
+  padding: 30px 0;
   text-align: center;
   position: relative;
   }
 h2{
   font-size: 40px;
-  padding: 50px 0;
+}
+h3{
+  font-size: 25px;
 }
 body{
   height:100%;
@@ -245,67 +247,73 @@ nav .current{
       border-radius: 5px;
     }
     .data{
-      margin-top: 50px;
       display: flex;
       padding: 10px;
       flex-flow:row wrap;
       flex-direction: row;
       /* padding-right: 50px; */
+      row-gap: 30px;
     }
 
     .data .top-left{
       width: 40%;
       text-align: left;
-      margin-left: 6.6%;
-      margin-right: 3.4%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-top: 46px;
+    }
+    .data .top-left h2, .data .bottom-right h2{
+      padding-bottom: 0px;
+      text-align: center;
     }
     .data .top-right{ 
       width: 40%;
       text-align: center;
-      margin-left: 3.4%;
-      margin-right: 6.6%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
 
     .data .bottom-left{
       width: 40%;
       text-align: left;
-      margin-left: 6.6%;
-      margin-right: 3.4%;
+      padding-top: 46px;      
+      margin-left: 5%;
+      margin-right: 5%;
     }
     
-    .data .bottom-left p{
+    .data .top-right p{
       background-color: #E8DCB9;
-      padding: 30px;
+      /* padding: 20px; */
+      padding: 20px;
+      font-size: 20px;
     }
 
     .data .bottom-right{
       width: 40%;
-      text-align: left;
-      margin-left: 3.4%;
-      margin-right: 6.6%;
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
     }
 
     .data .bottom-right p{
       background-color: #E8DCB9; 
-      padding: 30px;
+      padding: 20px;
+      font-size: 20px;
     }
 
-    @media all and (min-width: 600px) {
-      .d{flex:1 0 1 1}
-    }
-    
+
      .button #submit{
       background-color: #E8DCB9;
       color:#407BFF;
       position: absolute;
       right:0;
-      margin-right: 113px;
+      margin-right: 6%;
       height:30px;
       width:80px;
       font-weight: bold;
     } 
     .button{
-      padding-right:20px;
+      padding-right: 5%;
     }
     .everything{
       display:flex; 
@@ -358,4 +366,5 @@ nav .current{
       text-align: center;
       margin-top: 50px;
       width: 100%;
+      position: absolute;
     }
