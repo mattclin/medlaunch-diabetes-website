@@ -9,6 +9,10 @@ h2{
   font-size: 40px;
 }
 h3{
+  font-size: 30px;
+}
+
+h4{
   font-size: 25px;
 }
 body{
@@ -202,6 +206,19 @@ nav .current{
   .homepage img >*{
     padding: 50px;
   }
+  .img{
+    width:40%;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%; 
+  }
+  .newsfeed{
+    width:40%;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #48A5D3;
+  }
   .const{
     width: 70%;
     display: block;
@@ -220,19 +237,20 @@ nav .current{
     .homepage .btn {
       position: absolute;
       top: 50%;
-      left: 80%;
+      left: 28%;
       transform: translate(-75%, -50%);
       -ms-transform: translate(-50%, -50%);
       background-color: #FFFFFF;
-      color: #48A5D3;
+      color: black;
       font-size: 16px;
+      font-weight: bold;
       padding: 12px 24px;
       border: none;
       cursor: pointer;
       border-radius: 5px;
     }
 
-    .homepage .btn2{
+    /* .homepage .btn2{
       position: absolute;
       top: 50%;
       left: 28%;
@@ -245,7 +263,7 @@ nav .current{
       border: none;
       cursor: pointer;
       border-radius: 5px;
-    }
+    } */
     .data{
       display: flex;
       padding: 10px;
@@ -304,7 +322,7 @@ nav .current{
 
      .button #submit{
       background-color: #E8DCB9;
-      color:#407BFF;
+      color: black;
       position: absolute;
       right:0;
       margin-right: 6%;
@@ -320,7 +338,9 @@ nav .current{
       flex-direction:row;
       padding-bottom: 30px;
     }
-
+    .left h3{
+      font-weight:bold;
+    }
     .left{
       background-color: #E8DCB9;
       width: 40%;
@@ -361,10 +381,11 @@ nav .current{
 
     footer{
       background-color: #48A5D3; 
-      color: white;
+      color: black;
       bottom:0px;
       text-align: center;
       margin-top: 50px;
       width: 100%;
       position: absolute;
     }
+
